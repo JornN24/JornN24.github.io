@@ -3,7 +3,7 @@
     padding: 0;
   }
   
-  .homepage{
+  .ZombieBaller{
     background-color: white;
   }
   
@@ -41,7 +41,8 @@
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
-    
+    display: inline-block;
+
     
   }
   
@@ -81,7 +82,7 @@
   .button {
       
       border-radius: 4px;
-      background-color:gainsboro ;
+      background-color:white   ;
       border: none;
       color: black;
       text-align: center;
@@ -128,7 +129,7 @@
   .headerText{
       text-align: center;
       margin-top: 15px;
-      color:white;
+      color:black;
       margin-left: 44%;
       position: absolute;
   }
@@ -155,60 +156,30 @@
       bottom: 0;
   }
   
-  .insta{
-    width: 5vw;
-  }
+
   
   /*language*/
   .container img {
+    
     float: left;
     width: 50px;
     margin-top: 19px;
     margin-left: 10px;
   }
-  
-  .title{
-    text-align: center;
-    color: white;
-    
+  .information{
+    width: 100%;
   }
   
-  .video{
-    width: 36vw;
-    margin-left: 15vw;
-    margin-top: 2vw;
-    position: absolute;
-   }
-
-   .video2{
-    width: 36vw;
-    margin-left: 54vw;
-    margin-top: 2vw;
-    position: absolute;
-   }
+  
+  .bg-image{
+    size: 100px;
+  }
+  
+  
 
 
 
-   .text{
-    
-    position: absolute;
-    color: white;
-    margin-top: 25vw;
-    margin-left: 17vw;
-    margin-right: 52%;
-    text-align: center;
-    background-color: grey;
-    border: 1px solid white;
-   }
+   
 
-   .text2{
-    
-    position: absolute;
-    color: white;
-    margin-top: 25vw;
-    margin-right: 15vw;
-    margin-left: 59%;
-    text-align: center;
-    background-color: grey;
-    border: 1px solid white;
-   }
+   
+   
