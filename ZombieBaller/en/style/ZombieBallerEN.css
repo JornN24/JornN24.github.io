@@ -4,7 +4,7 @@
   }
   
   .homepage{
-    background-color: black;
+    background-color: white;
   }
   
   
@@ -17,8 +17,8 @@
   }
   
   .topnav{
-      background-color: black;
-      border: 1px solid white ;
+      background-color: white;
+      border-bottom: 2px solid black ;
       width: calc(100vw - 2px);
       height: 80px;
       
@@ -33,14 +33,15 @@
     color: black;
     margin: 0;
     width: 200px;
-    border: 1px solid black ;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     cursor: pointer;
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
-    display: inline-block;
+    
     
   }
   
@@ -80,7 +81,7 @@
   .button {
       
       border-radius: 4px;
-      background-color:white ;
+      background-color:gainsboro ;
       border: none;
       color: black;
       text-align: center;
