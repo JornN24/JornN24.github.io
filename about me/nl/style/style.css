@@ -1,209 +1,211 @@
 * {
-    margin:0;
-    padding: 0;
-  }
+  margin:0;
+  padding: 0;
+}
+
+.ZombieBaller{
+  background-color: white;
+}
+
+
+
+
+html,head,body{
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav{
+    background-color: #191919;
+    
+    width: 100%;
+    height: 80px;
+    
+}
+
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #191919;
+  color: white;
+  margin: 0;
+  width: 150px;
+  border: none;
   
-  .homepage{
-    background-color: black;
-  }
+  cursor: pointer;
   
   
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
   
+  margin-top: 60px;
+  left: 0px;
   
-  html,head,body{
-      height:100%;
-      padding: 0px;
-      margin: 0px;
-  }
-  
-  .topnav{
-      background-color: black;
-      border: 1px solid white ;
-      width: calc(100vw - 2px);
-      height: 80px;
-      
-  }
-  
-  
-  
-  
-  /* Style The Dropdown Button */
-  .dropbtn {
-    background-color: white;
-    color: black;
-    margin: 0;
-    width: 200px;
-    border: 1px solid black ;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #191919;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+
+/*button About me */
+.button {
+    
+    border-radius: 4px;
+    background-color: #191919   ;
+    border: none;
+    color: white  ;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 140px;
+    transition: all 0.5s;
     cursor: pointer;
-  }
+    margin-top: 15px;
+    
+   
+}
   
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+  .button span {
+    cursor: pointer;
     position: relative;
-    display: inline-block;
-    
-  }
+    transition: 0.5s;
+}
   
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
+  .button span:after {
+    content: '\00bb';
     position: absolute;
-    background-color: white;
-    width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
   
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-  }
+  .button:hover span {
+    padding-right: 25px;
+}
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: white;
-  }
-  
-  
-  /*button About me */
-  .button {
-      
-      border-radius: 4px;
-      background-color:white ;
-      border: none;
-      color: black;
-      text-align: center;
-      font-size: 18px;
-      padding: 10px;
-      width: 140px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin-top: 15px;
-      
-     
-  }
-    
-    .button span {
-      cursor: pointer;
-      position: relative;
-      transition: 0.5s;
-  }
-    
-    .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-  }
-    
-    .button:hover span {
-      padding-right: 25px;
-  }
-    
-    .button:hover span:after {
-      opacity: 1;
-      right: 0;
-  }
-  
-  .buttons{
-      float: right;
-      margin-right: 50px;
-  }  
-  
-  /*Welcome text*/
-  .headerText{
-      text-align: center;
-      margin-top: 15px;
-      color:white;
-      margin-left: 45%;
-      position: absolute;
-  }
-  
-  
-  /* Video*/
-  .center{
-    margin: 0 auto;
-    width: 70vw;
-    height: 70%;
-    display: block;
-    margin-top: 2%;
-   }
-  
-   .container {
-    position: relative;
-    width: 100vw;
-    max-width: 400px;
-  }
-  
-  .bottomContainer
-  {
-    position: absolute;
-      bottom: 0;
-  }
-  
-  .insta{
-    width: 5vw;
-  }
-  
-  /*language*/
-  .container img {
-    float: left;
-    width: 50px;
-    margin-top: 19px;
-    margin-left: 10px;
-  }
-  
-  .title{
-    text-align: center;
-    color: white;
-    
-  }
-  
-  
-  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 
-  .bg-image {
-    
-    /* Full height */
-    height: 100%; 
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-  }
-  
+.buttons{
+    float: right;
+    margin-right: 50px;
+}  
 
 
 
+
+
+
+/*language*/
+.container img {
   
+  float: left;
+  width: 50px;
+  margin-top: 19px;
+  margin-left: 10px;
+}
+
+
+.information{
+  width: 100%;
+}
+
+
+.bg-image{
+  size: 100px;
+}
+
+.about{
+width: 100%;
+padding: 78px 0px;
+background-color: #191919;
+}
+
+.about img{
+height:  auto;
+width: 420px;
+}
+
+.about-text{
+width: 550px;
+}
+
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.about-text h1{
+color: white;
+font-size: 80px;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+
+.about-text h5{
+color: white;
+font-size: 25px;
+text-transform: capitalize;
+margin-bottom: 25px;
+letter-spacing: 2px;
+}
+
+span2{
+color: #ff6800;
+}
+
+.about-text p{
+color: white;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+}
+
+
+ 
+
+ 
+ 
