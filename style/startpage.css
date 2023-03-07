@@ -25,7 +25,7 @@ h2::before{
     left: 0;
     width: 0;
     height: 100%;
-    color: #ff6800;
+    color: #7F00FF;
     -webkit-text-stroke: 0vw black;
     border-right: 2px solid black;
     overflow: hidden;
@@ -49,7 +49,7 @@ h2::before{
     border-radius: 4px;
     background-color: #191919   ;
     border: none;
-    color: #ff6800  ;
+    color: #7F00FF  ;
     text-align: center;
     font-size: 30px;
     padding: 10px;

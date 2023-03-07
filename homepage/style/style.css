@@ -12,7 +12,7 @@ html,head,body{
 
 .topnav{
     background-color: #191919;
-    border-bottom: 40px solid #ff6800;
+    border-bottom: 40px solid #2963ff ;
     width: 100%;
     height: 80px;
     
@@ -140,7 +140,7 @@ nav{
 }
 
 span2{
-  color: #ff6800;
+  color: #2963ff ;
 }
 
 
@@ -194,7 +194,7 @@ span2{
 }
 
 span2{
-  color: #ff6800;
+  color: #2963ff ;
 }
 
 
@@ -217,7 +217,7 @@ footer p:nth-child(1){
   color: white;
   margin-bottom: 20px;
   font-weight: bold;
-  border-bottom: 2px solid #ff6800;
+  border-bottom: 2px solid #2963ff ;
 }
 
 
@@ -231,7 +231,7 @@ footer p:nth-child(1){
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ff6800;
+  background: #2963ff ;
   border-radius: 50%;
   margin: 22px 10px;
   color: white;
