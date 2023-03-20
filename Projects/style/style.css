@@ -12,7 +12,7 @@ html,head,body{
 
 .topnav{
     background-color: #191919;
-    border-bottom: 40px solid #2963ff;
+    border-bottom: 40px solid #ff6800;
     width: 100%;
     height: 80px;
     
@@ -140,7 +140,7 @@ nav{
 }
 
 span2{
-  color: #2963ff;
+  color: #ff6800;
 }
   
   
@@ -196,7 +196,7 @@ span2{
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
-  border-bottom: 2px solid #2963ff;
+  border-bottom: 2px solid #ff6800;
 }
 
 .about-text h5{
@@ -208,7 +208,7 @@ span2{
 }
 
 span2{
-  color: #2963ff;
+  color: #ff6800;
 }
 
 .about-text p{
